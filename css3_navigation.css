@@ -1,0 +1,225 @@
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+    background-color: black;
+    width: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sidenav {
+    height: 100vh;
+    width: 280px;
+    /* border: 2px solid black; */
+    display: inline-flex;
+    flex-direction: column;
+    z-index: 2;
+    top: 0;
+    position: fixed;
+
+}
+
+#sidenavbar-logo-name {
+    display: inline-flex;
+    /* border: 2px solid black; */
+    background-color: #16151a;
+    border-right: 1px solid #222227;
+    border-bottom: 1px solid #222227;
+
+
+}
+
+#sidenavbar-logo-name img {
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+
+#sidenavbar-logo-name p {
+    font-size: 30px;
+    align-self: center;
+    color: white;
+
+}
+
+#sidenavbar-list {
+    border: 1px solid #222227;
+    height: 285px;
+    background-color: #16151a;
+
+}
+
+.items {
+    margin: 20px;
+    list-style: none;
+    /* border: 1px solid #222227; */
+
+}
+
+.items a {
+    font-size: 20px;
+    color: rgb(196, 191, 191);
+    text-decoration: none;
+
+}
+
+/* .items a:hover{
+    color: white;
+} */
+.items a:hover,
+.items a.active {
+    color: white;
+}
+
+.items span {
+    margin-right: 8px;
+
+}
+
+/* .items span:hover{
+    color: rgb(6, 168, 6);
+} */
+.items span:hover,
+.items span.active {
+    color: rgb(6, 168, 6);
+
+}
+
+
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+
+
+#topnav {
+    display: inline-flex;
+    flex-direction: row;
+    width: 1225px;
+    border: 1px solid red;
+    padding-left: 300px;
+    position: absolute;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 90px;
+    background-color: #16151a;
+    border: 1px solid #222227;
+
+}
+
+#topnav-aboutus {
+    text-decoration: none;
+    color: rgb(196, 191, 191);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 45px;
+}
+
+#topnav-aboutus:hover {
+    color: rgb(6, 168, 6);
+}
+
+.search input[type=text] {
+    width: 300px;
+    height: 40px;
+    /* padding-left: 10px; */
+    border: none;
+    background-color: #39383b;
+    color: rgb(196, 191, 191);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+.search {
+    height: 40px;
+    width: 335px;
+    background-color: #39383b;
+    /* border-radius: 10px; */
+    margin-right: 600px;
+
+}
+
+.search button {
+    background-color: #39383b;
+    color: rgb(196, 191, 191);
+    padding-top: 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+::placeholder {
+    color: rgb(196, 191, 191);
+    text-align: center;
+
+}
+
+#topnav-sign {
+    text-decoration: none;
+    color: rgb(196, 191, 191);
+    font-size: 20px;
+}
+
+#topnav-sign:hover {
+    color: white;
+
+}
+
+#topnav-sign span:hover {
+    color: rgb(6, 168, 6);
+}
+
+
+
+#sidenavbar-music{
+    height: 342px;
+    border: 1px solid #222227;
+    /* border: 1px solid white; */
+    background-color: #16151a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+#music-buttons{
+     /* border: 1px solid white; */
+    background-color: #16151a;
+    color: white;
+    margin-left: 25px;
+    margin-top: 200px;
+    height: 60px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 45px !important;
+    cursor: pointer;
+
+}
+#progessBar{
+    margin-left: 35px;
+    margin-top: 10px;
+    
+}
+#myProgressBar{
+    width: 220px;
+}

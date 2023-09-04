@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#mainpage{
+    height: 65vh;
+    width: 100vw;
+    background:linear-gradient(45deg, rgb(17, 0, 5), rgb(131, 6, 6));
+    color: white;
+}
+#title{
+    color: white;
+    height: 35vh;
+    width: 100vw;
+    /* border: 1px solid white; */
+    display: inline-flex;
+    margin-top: 7rem;
+    background:linear-gradient(180deg, rgb(185, 4, 59), rgb(98, 3, 3));
+    /* display: flex; */
+
+}
+#poster{
+    color: white;
+    height: 28vh;
+    width: 13vw;
+    /* border: 1px solid white; */
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    background-image: url(/images/tu-jhooti-main-makkar.jpg);
+    background-size: 13vw 28vh;
+    box-shadow: 5px 5px 25px 5px black;
+}
+#poster-description{
+    color: white;
+    /* border: 2px solid white; */
+    margin-left: 3rem;
+    margin-top: 2rem;
+    display: inline-flex;
+    height:12rem;
+    width: 55rem;
+    flex-direction: column;
+    
+}
+#film{
+    height: 6rem;
+    width: 50vw;
+    /* border: 1px solid white; */
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 4rem;
+    font-weight:bold ;
+    padding-top: 2rem;
+}
+#film-artists{
+    height: 3rem;
+    width: 50vw;
+    /* border: 1px solid white; */
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: rgb(196, 191, 191);
+
+}
+#headings{
+    display: flex;
+    justify-content: space-around;
+    height: 2rem;
+    width: 100vw;
+    position:sticky;
+    top: 0;
+    background:linear-gradient(45deg, rgb(17, 0, 5), rgb(131, 6, 6));
+
+    
+}
+#headings p{
+    color: rgb(196, 191, 191);
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+#song-page{
+    height: 70vh;
+    width: 100vw;
+    background-color: #16151a;
+    /* position: relative; */
+    
+
+}
+.song-divisions{
+    display: flex;
+    height: 4rem;
+    width: 100vw;
+    /* border: 1px solid white; */
+    color: white;
+    align-items: center;
+}
+.song-divisions:hover{
+    background-color: rgb(59, 57, 57);
+}
+.song-images{
+    /* border: 1px solid white; */
+    height: 45px;
+    width: 45px;
+    margin-left: 25px;
+}
+#pyaar-hota{
+    background-image: url("/images/pyaar-hota-kai-baar.jpg");
+    background-size: 45px 45px;
+}
+
+#tere-pyaar{
+    background-image: url("/images/tere-pyaar-mein.jpg");
+    background-size: 45px 45px;
+}
+
+#thumka{
+    background-image: url("/images/thumka.jpg");
+    background-size: 45px 45px;
+}
+
+#bedardaya{
+    background-image: url("/images/o-bedardaya.jpg");
+    background-size: 45px 45px;
+}
+#bedardaya-artist{
+    margin-left: 340px;
+}
+#bedardaya-time{
+    margin-left: 417px;
+}
+
+#jaadui{
+    background-image: url("/images/jaadui.jpg");
+    background-size: 45px 45px;
+}
+#jaadui-artist{
+    margin-left: 376px;
+}
+#jaadui-time{
+    margin-left: 417px;
+}
+
+.title-name{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.artist-name{
+    font-size: 17px;
+    margin-left: 270px;
+    color: rgb(196, 191, 191);
+
+}
+.time{
+    font-size: 17px;
+    margin-left: 370px;
+    color: rgb(196, 191, 191);
+
+}
+
+#music-player{
+    height: 100px;
+    width: 100vw;
+    /* border: 1px solid white; */
+    background-color: #16151a;
+    /* background-color: yellow; */
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* position: fixed; */
+
+    
+}
+
+#div1{
+    display: flex;
+    height: 40px;
+    width: 500px;
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    justify-content:space-around;
+
+}
+.material-symbols-outlined{
+    font-size: 35px !important;
+}
+#progessBar{
+    margin-top: 10px;
+    height: 22px;
+    width: 1150px;
+    /* border: 1px solid white; */
+}
+#myProgressBar{
+    width: 1150px;
+}

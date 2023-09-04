@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+#details{
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 57vw;
+    background-color: #16151a;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+}
+
+#heading{
+    display: flex;
+    /* border: 1px solid white; */
+    height: 90px;
+    width: 345px;
+    margin-top: 160px;
+    margin-bottom: 35px;
+}
+
+#image{
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 43vw;
+    background-image: url(/images/img9.avif);
+    background-repeat: no-repeat;
+    background-size: 57vw 100vh;
+}
+#img{
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid white; */
+    margin-right: 30px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name{
+    font-size: 60px;
+    font-weight: 15;
+    color: white;
+}
+
+#Signinform{
+    color: white;
+    height: 390px;
+    width: 555px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   /* display: none; */
+
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.list{
+    border: 2px solid rgb(156, 150, 150);
+    border-radius: 25px;
+    width: 500px;
+    height: 50px;
+    margin: 25px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+input{
+    margin-left: 10px;
+    background: none;
+    outline: none;
+    color: white;
+    width: 350px;
+    border: none;
+}
+button{
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(156, 150, 150);
+}
+
+#Loginform{
+    color: white;
+    height: 315px;
+    width: 555px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   display: none;
+}
+.list{
+    border: 2px solid rgb(156, 150, 150);
+    border-radius: 25px;
+    width: 500px;
+    height: 50px;
+    margin: 25px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+input{
+    margin-left: 10px;
+    background: none;
+    outline: none;
+    color: white;
+    width: 350px;
+    border: none;
+}
+#loginBtn{
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+}

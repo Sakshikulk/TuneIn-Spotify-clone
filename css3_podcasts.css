@@ -1,0 +1,103 @@
+#podcasts{
+    width: 1247px;
+    height: 550px;
+    margin-left: 279px;
+    /* border: 1px solid red; */
+    background-color: #16151a;
+    
+}
+#onlyPodcasts-header{
+    color: white;
+    /* border: 1px solid white; */
+    width: 370px;
+    height: 80px;
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    
+}
+#onlyPodcasts-header p{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 45px;
+}
+#podcasts-container{
+    display: flex;
+    width: 1200px;
+    height: 440px ;
+    /* border: 1px solid white; */
+    /* color: white; */
+    margin-left: 20px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#podcasts-container a{
+    text-decoration: none;
+}
+.poodcasts{
+    color: white;
+    width: 270px;
+    height: 360px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.podcast-img{
+    /* border: 1px solid red; */
+    height: 290px;
+    width: 270px;
+    border-radius: 15px;
+
+}
+.poodcasts p{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.poodcasts p:hover{
+    color: rgb(6, 168, 6);
+}
+#poodcast1{
+    background-image: url(/images/sandeep1.jpg);
+    background-repeat: no-repeat;
+    background-size: 270px 290px;
+    transition: transform .5s ease;
+}
+#poodcast1:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+#poodcast2{
+    background-image: url(/images/trs.png);
+    background-repeat: no-repeat;
+    background-size: 270px 290px;
+    transition: transform .5s ease;
+}
+#poodcast2:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+#poodcast3{
+    background-image: url(/images/indian-noir.jpg);
+    background-repeat: no-repeat;
+    background-size: 270px 290px;
+    transition: transform .5s ease;
+}
+#poodcast3:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+#poodcast4{
+    background-image: url(/images/the-horror-show.jpg);
+    background-repeat: no-repeat;
+    background-size: 270px 290px;
+    transition: transform .5s ease;
+}
+#poodcast4:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}

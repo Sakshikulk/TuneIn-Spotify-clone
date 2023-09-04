@@ -1,0 +1,232 @@
+#releases{
+    display: inline-flex;
+    height: 645px;
+    width: 1246px;
+    /* color: red; */
+    /* border: 1px solid black; */
+    margin-left: 280px;
+    background-color: #16151a;
+    flex-direction: column;
+}
+#releases-header{
+    display: flex;
+    height: 100px;
+    width: 1246px;
+    /* border: 1px solid black; */
+    background-color: #16151a
+
+}
+#releases-header p{
+    color: white;
+    font-size: 30px;
+    margin-right: 945px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+#releases-header a{
+    text-decoration: none;
+    color:rgb(196, 191, 191) ;
+    font-size: 20px;
+    /* margin-right: 10px; */
+    margin-top: 10px;
+}
+#releases-header a:hover{
+    color: white;
+}
+#releases-header a span:hover{
+    color: rgb(6, 168, 6);
+}
+.all-releases{
+    height: 260px;
+    width: 175px;
+    /* border: 1px solid red; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+
+    
+}
+#all-releases1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1225px;
+    height: 500px;
+    /* border: 2px solid red; */
+}
+#all-releases1 a{
+    text-decoration: none;
+}
+
+#all-releases2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1225px;
+    height: 500px;
+    /* border: 2px solid red; */
+}
+#all-releases2 a{
+    text-decoration: none;
+}
+.images{
+    height: 200px;
+    width: 175px;
+    /* border: 2px solid yellow; */
+    border-radius: 15px;
+    /* overflow: hidden; */
+
+
+}
+.songName{
+    font-size: 20px;
+    color:white ;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.singer{
+    font-size: 15px;
+    color:rgb(196, 191, 191) ;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.despcription p:hover{
+    color: rgb(6, 168, 6);
+
+}
+
+#release1{
+    background-image: url(/images/tere-pyaar-mein.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+}
+#release1:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+}
+
+#release2{
+    background-image: url(/images/jhoome-jo-pathaan.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+    
+}
+#release2:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+}
+#release3{
+    background-image: url(/images/o-bedardaya.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+
+}
+#release3:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+}
+#release4{
+    background-image: url(/images/apna-bana-le.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+
+}
+#release4:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+}
+#release5{
+    background-image: url(/images/besharm-rang.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+
+}
+#release5:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+}
+#release6{
+    background-image: url(/images/kesariya.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+
+}
+#release6:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+}
+#release7{
+    background-image: url(/images/rasiya.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+
+}
+#release7:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+}
+#release8{
+    background-image: url(/images/pyaar-hota-kai-baar.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+
+}
+#release8:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+}
+#release9{
+    background-image: url(/images/thumkeshwari.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+
+}
+#release9:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+#release10{
+    background-image: url(/images/deva-deva.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+
+}
+#release10:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+#release11{
+    background-image: url(/images/rangsari.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+
+}
+#release11:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+#release12{
+    background-image: url(/images/dance-ka-bhoot.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+
+}
+#release12:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}

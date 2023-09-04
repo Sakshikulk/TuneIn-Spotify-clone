@@ -1,0 +1,143 @@
+#artists{
+    display: flex;
+    /* border: 1px solid red; */
+    height: 425px;
+    width: 1246 px;
+    /* color: black; */
+    margin-left: 280px;
+    flex-direction: column;
+    background-color: #16151a
+
+}
+#artist-header{
+    display: flex;
+    height: 100px;
+    width: 1246px;
+    /* border: 1px solid black; */
+    background-color: #16151a
+}
+#artist-header p{
+    color: white;
+    font-size: 30px;
+    margin-right: 1025px;
+    margin-top: 35px;
+    margin-left: 20px;
+
+}
+#artist-header a{
+    text-decoration: none;
+    color:rgb(196, 191, 191) ;
+    /* color: black; */
+    font-size: 20px;
+    /* margin-right: 10px; */
+    margin-top: 35px;
+}
+#artist-header a:hover{
+    color: white;
+}
+#artist-header a span:hover{
+    color: rgb(6, 168, 6);
+}
+#artist-section{
+    /* border: 1px solid red; */
+    height: 280px;
+    width: 1210px;
+    color: white;
+    margin-left: 15px;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#artist-section a{
+    text-decoration: none;
+}
+.all-artist{
+    height: 260px;
+    width: 175px;
+    /* border: 1px solid yellow; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+.artist-despcription p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+    /* color: yellow; */
+}
+.artist-despcription p:hover{
+    color: rgb(6, 168, 6);
+    
+}
+#artist1{
+    background-image: url(/images/arijit.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+}
+#artist1:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+#artist2{
+    background-image: url(/images/vishal.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+}
+#artist2:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+#artist3{
+    background-image: url(/images/shilpa.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+}
+#artist3:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+#artist4{
+    background-image: url(/images/tushar.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+}
+#artist4:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+#artist5{
+    background-image: url(/images/ash.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+}
+#artist5:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+#artist6{
+    background-image: url(/images/javed.jpg);
+    background-repeat: no-repeat;
+    background-size: 175px 200px;
+    transition: transform .5s ease;
+}
+#artist6:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}

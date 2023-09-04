@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUNEIN</title>
+    <!-- CSS FILES  -->
+    <link rel="stylesheet" href="css3_navigation.css">
+    <link rel="stylesheet" href="css3_slider.css">
+    <link rel="stylesheet" href="css3_releases.css">
+    <link rel="stylesheet" href="css3_artist.css">
+    <link rel="stylesheet" href="css3_individuals.css">
+    <link rel="stylesheet" href="css3_podcasts.css">
+
+
+
+    <!-- HOME BUTTON  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- ARTIST BUTTON  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- RELEASE BUTTON  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- PALYLISTS BUTTON  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- PODCASTS BUTTON  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- SIGN IN  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- SEARCH BUTTON  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- SEE ALL ARROW  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <!-- FAVICON  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+    <!-- MUSIC BUTTONS -->
+    <!-- BACKWARD PLAY ICON -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- PLAY ICON  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- FORWARD PLAY -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- PAUSE BUTTON  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+    <!-- TOP NAVIGATION BAR  -->
+    <div id="topnav">
+        <a href="aboutUs.html" id="topnav-aboutus">About Us</a>
+
+        <div class="search">
+            <form action="#">
+                <input type="text" placeholder="Artist, Track, Podcasts " name="search">
+                <button>
+                    <span class="material-symbols-outlined">search </span>
+                </button>
+            </form>
+        </div>
+        <div class="signin-login">
+        <a href="signIn.html" id="topnav-sign">Sign In <span class="material-symbols-outlined">login</span></a>
+        </div>
+
+    </div>
+    <!-- SIDE NAVBAR -->
+    <div id="sidenav">
+        <!-- LOGO DIVISION -->
+        <div id="sidenavbar-logo-name">
+            <img src="/images/finalLogo1.jpg" alt="not found" id="logo">
+            <p>TuneIn</p>
+        </div>
+        <!-- LIST DIVISION   -->
+        <ul id="sidenavbar-list">
+            <li class="items"><a href="#slider" class="active"><span
+                        class="material-symbols-outlined active">home</span> Home
+                </a></li>
+
+            <li class="items"><a href="#artists"><span class="material-symbols-outlined">group</span>Artists</a></li>
+
+            <li class="items"><a href="#releases"><span class="material-symbols-outlined">music_note</span>Releases</a>
+            </li>
+
+            <li class="items"><a href="#individuals"><span class="material-symbols-outlined">
+                        queue_music</span>Albums</a></li>
+
+            <li class="items"><a href="#podcasts"><span class="material-symbols-outlined">
+                        podcasts</span>Podcasts</a></li>
+        </ul>
+        <!-- MUSIC PLAYER SECTION  -->
+        <div id="sidenavbar-music">
+                
+
+            <div id="music-buttons">
+                <div id="backward-play">
+                    <span class="material-symbols-outlined" id="1">
+                        skip_previous
+                    </span>
+                </div>
+
+                <div id="pause">
+             
+                        <span class="material-symbols-outlined" id="masterPlay" id="2">
+                            play_arrow
+                        </span>
+                
+                </div>
+
+                <div id="forward-play">
+                    <span class="material-symbols-outlined" id="3">
+                        skip_next
+                    </span>
+                </div>
+
+            </div>
+
+            <div id="progessBar">
+                <input type="range" name="range" id="myProgressBar" min="0" max="100">
+            </div>
+
+        </div>
+
+    </div>
+    <!-- SLIDER  -->
+    <div id="slider">
+        <div id="slider-window">
+            <div id="slider-contents">
+                <p id="first">
+                    Moments . Music . Life
+                </p>
+                <p id="second">
+                    Experience best quality music, latest releases and
+                    podcasts. <br>Top rated playlists, and famous podcasts of Raneer
+                    Allahbadia, Sandeep Maheshwari and many more, that to add free.
+                    <br> Only on TuneIn!!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEW RELEASES  -->
+    <div id="releases">
+
+        <div id="releases-header">
+            <p>New Releases</p>
+            <a href="#">See All<span class="material-symbols-outlined">arrow_forward
+                </span></a>
+        </div>
+
+        <div id="all-releases1">
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release1" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Tere Pyaar Mein
+                        </p>
+                        <p class="singer">
+                            Pritam, Arijit Singh
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release2" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Jhoome Jo Pathaan
+                        </p>
+                        <p class="singer">
+                            Arijit Singh, Vishal Dadlani
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release3" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            O Bedardaya
+                        </p>
+                        <p class="singer">
+                            Pritam, Arijit Singh
+
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release4" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Apna Bana Le
+                        </p>
+                        <p class="singer">
+                            Arijit Singh
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release5" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Besharam Rang
+                        </p>
+                        <p class="singer">
+                            Shilpa Rao, Vishal-Shekar
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release6" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Kesariya
+                        </p>
+                        <p class="singer">
+                            Pritam, Arijit Singh
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+        <div id="all-releases2">
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release7" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Rasiya
+                        </p>
+                        <p class="singer">
+                            Pritam, Tushar Joshi
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release8" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Pyaar Hota Kai Baar Hai
+                        </p>
+                        <p class="singer">
+                            Pritam, Arijit Singh
+
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release9" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Thumeshwari
+                        </p>
+                        <p class="singer">
+                            Ash King, Sachin-Jigar
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release10" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Deva Deva
+                        </p>
+                        <p class="singer">
+                            Pritam, Arijit Singh
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release11" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Rangsari
+                        </p>
+                        <p class="singer">
+                            Kanishk Seth, Kavita Seth
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-releases">
+                    <!-- IMAGE DIV  -->
+                    <div id="release12" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="despcription">
+                        <p class="songName">
+                            Dance Ka Bhoot
+                        </p>
+                        <p class="singer">
+                            Pritam, Arijit Singh
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- ARTISTS SECTION  -->
+    <div id="artists">
+
+        <div id="artist-header">
+            <p>Artists</p>
+            <a href="#">See All<span class="material-symbols-outlined">arrow_forward
+                </span></a>
+        </div>
+
+        <div id="artist-section">
+
+            <a href="#">
+                <div class="all-artist">
+                    <!-- IMAGE DIV  -->
+                    <div id="artist1" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="artist-despcription">
+                        <p>
+                            Arijit Singh
+                        </p>
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-artist">
+                    <!-- IMAGE DIV  -->
+                    <div id="artist2" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="artist-despcription">
+                        <p>
+                            Vishal Daldlani
+                        </p>
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-artist">
+                    <!-- IMAGE DIV  -->
+                    <div id="artist3" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="artist-despcription">
+                        <p>
+                            Shilpa Rao
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-artist">
+                    <!-- IMAGE DIV  -->
+                    <div id="artist4" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="artist-despcription">
+                        <p>
+                            Tushar Joshi
+                        </p>
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-artist">
+                    <!-- IMAGE DIV  -->
+                    <div id="artist5" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="artist-despcription">
+                        <p>
+                            Ash King
+                        </p>
+
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="all-artist">
+                    <!-- IMAGE DIV  -->
+                    <div id="artist6" class="images">
+
+                    </div>
+                    <!-- DESCRIPTION DIV  -->
+                    <div class="artist-despcription">
+                        <p>
+                            Javed Ali
+                        </p>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- INDIVIDUALS BOXES  -->
+    <div id="individuals">
+
+        <!-- top singles  -->
+        <a href="#">
+            <div id="individuals-box">
+                <!-- header  -->
+                <div class="individuals-header">
+                    Top Singles
+                </div>
+                <!-- items  -->
+                <div class="topSingle-items">
+                    <!-- image div  -->
+                    <div class="song-icon" id="single1">
+
+                    </div>
+                    <!-- song name div  -->
+                    <div class="song-name-small">
+                        <p class="songName">
+                            Kesariya
+                        </p>
+                        <p class="singer">
+                            Arijit Singh
+                        </p>
+                    </div>
+                    <!-- time div  -->
+                    <div class="time">
+                        2:55
+                    </div>
+                </div>
+
+                <div class="topSingle-items">
+                    <!-- image div  -->
+                    <div class="song-icon" id="single2">
+
+                    </div>
+                    <!-- song name div  -->
+                    <div class="song-name-small">
+                        <p class="songName">
+                            Rangsari
+                        </p>
+                        <p class="singer">
+                            Kavita Seth
+                        </p>
+                    </div>
+                    <!-- time div  -->
+                    <div class="time">
+                        2:55
+                    </div>
+                </div>
+
+                <div class="topSingle-items">
+                    <!-- image div  -->
+                    <div class="song-icon" id="single3">
+
+                    </div>
+                    <!-- song name div  -->
+                    <div class="song-name-small">
+                        <p class="songName">
+                            Rasiya
+                        </p>
+                        <p class="singer">
+                            Tushar Joshi
+                        </p>
+                    </div>
+                    <!-- time div  -->
+                    <div class="time">
+                        2:55
+                    </div>
+                </div>
+
+                <div class="topSingle-items">
+                    <!-- image div  -->
+                    <div class="song-icon" id="single4">
+
+                    </div>
+                    <!-- song name div  -->
+                    <div class="song-name-small">
+                        <p class="songName">
+                            Deva Deva
+                        </p>
+                        <p class="singer">
+                            Arijit Singh
+                        </p>
+                    </div>
+                    <!-- time div  -->
+                    <div class="time">
+                        2:55
+                    </div>
+                </div>
+
+            </div>
+        </a>
+        <!-- top albums  -->
+        <a href="#">
+            <div id="individuals-box">
+                <!-- header  -->
+                <div class="individuals-header">
+                    Top Albums
+                </div>
+                <a href="brahmastra.html">
+                    <!-- items  -->
+                    <div class="topAlbums-items">
+                        <!-- image div  -->
+                        <div class="Album-icon" id="Album1">
+
+                        </div>
+                        <!-- song name div  -->
+                        <div class="song-name-small">
+                            <p class="songName">
+                                Brahmastra
+                            </p>
+                            <p class="singer">
+                                Pritam
+                            </p>
+                        </div>
+
+                    </div>
+                </a>
+
+                <a href="tu-jhooti.html">
+                    <div class="topAlbums-items">
+                        <!-- image div  -->
+                        <div class="Album-icon" id="Album2">
+
+                        </div>
+                        <!-- song name div  -->
+                        <div class="song-name-small">
+                            <p class="songName">
+                                Tu Jhooti Main Makkar
+                            </p>
+                            <p class="singer">
+                                Pritam
+                            </p>
+                        </div>
+
+                    </div>
+                    <a>
+
+                        <div class="topAlbums-items">
+                            <!-- image div  -->
+                            <div class="Album-icon" id="Album3">
+
+                            </div>
+                            <!-- song name div  -->
+                            <div class="song-name-small">
+                                <p class="songName">
+                                    Bhediya
+                                </p>
+                                <p class="singer">
+                                    Sachin-Jigar
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="topAlbums-items">
+                            <!-- image div  -->
+                            <div class="Album-icon" id="Album4">
+
+                            </div>
+                            <!-- song name div  -->
+                            <div class="song-name-small">
+                                <p class="songName">
+                                    Pathaan
+                                </p>
+                                <p class="singer">
+                                    Vishal-Shekar
+                                </p>
+                            </div>
+
+                        </div>
+
+
+            </div>
+        </a>
+        <!-- top podcasts  -->
+        <a href="#podcasts">
+            <div id="individuals-box">
+                <!-- header  -->
+                <div class="individuals-header">
+                    Top Podcsts
+                </div>
+
+                <!-- items  -->
+                <div class="topPodcasts-items">
+                    <!-- image div  -->
+                    <div class="Podcasts-icon" id="Podcast1">
+
+                    </div>
+                    <!-- song name div  -->
+                    <div class="song-name-small">
+                        <p class="songName">
+                            The Ranveer Show
+                        </p>
+                        <p class="singer">
+                            Ranveer Allahbadia
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- items  -->
+                <div class="topPodcasts-items">
+                    <!-- image div  -->
+                    <div class="Podcasts-icon" id="Podcast2">
+
+                    </div>
+                    <!-- song name div  -->
+                    <div class="song-name-small">
+                        <p class="songName">
+                            Sandeep Maheshwari
+                        </p>
+                        <p class="singer">
+                            Sandeep Maheshwari
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- items  -->
+                <div class="topPodcasts-items">
+                    <!-- image div  -->
+                    <div class="Podcasts-icon" id="Podcast3">
+
+                    </div>
+                    <!-- song name div  -->
+                    <div class="song-name-small">
+                        <p class="songName">
+                            Indian Noir
+                        </p>
+                        <p class="singer">
+                            Nikesh Murari
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- items  -->
+                <div class="topPodcasts-items">
+                    <!-- image div  -->
+                    <div class="Podcasts-icon" id="Podcast4">
+
+                    </div>
+                    <!-- song name div  -->
+                    <div class="song-name-small">
+                        <p class="songName">
+                            The Horror Show
+                        </p>
+                        <p class="singer">
+                            Khooni Monday
+                        </p>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </a>
+
+    </div>
+
+    <!-- PODCASTS  -->
+    <div id="podcasts">
+        <!-- header  -->
+        <div id="onlyPodcasts-header">
+            <p>Podcasts</p>
+        </div>
+
+        <div id="podcasts-container">
+
+            <a href="#">
+                <div class="poodcasts">
+                    <!-- image div  -->
+                    <div class="podcast-img" id="poodcast1">
+
+                    </div>
+
+                    <p>
+                        Sandeep Maheshwari
+                    </p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="poodcasts">
+                    <!-- image div  -->
+                    <div class="podcast-img" id="poodcast2">
+
+                    </div>
+
+                    <p>
+                        The Ranveer Show
+                    </p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="poodcasts">
+                    <!-- image div  -->
+                    <div class="podcast-img" id="poodcast3">
+
+                    </div>
+
+                    <p>
+                        Indian Noir
+                    </p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="poodcasts">
+                    <!-- image div  -->
+                    <div class="podcast-img" id="poodcast4">
+
+                    </div>
+
+                    <p>
+                        The Horror Show
+                    </p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    
+
+
+</body>
+
+</html>

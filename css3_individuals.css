@@ -1,0 +1,153 @@
+#individuals{
+    display: flex;
+    height: 450px;
+    width: 1247px;
+    /* border: 1px solid red; */
+    margin-left: 279px;
+    background-color: #16151a;
+    justify-content: space-evenly;
+}
+#individuals a{
+    text-decoration: none;
+}
+#individuals-box{
+    display: flex;
+    height: 420px;
+    width: 385px;
+    /* border: 1px solid yellow; */
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.individuals-header{
+    color: white;
+    /* border: 2px solid greenyellow; */
+    height: 55px;
+    width: 372px;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom:1px solid #222227;
+
+    
+}
+.topSingle-items{
+    display: flex;
+    color: white;
+    width: 384px;
+    height: 70px;
+    border-bottom: 1px solid #222227;
+    /* border: 1px solid white; */
+}
+.song-icon{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid yellow; */
+    margin-top: 12px;
+    margin-left: 15px;
+    border-radius: 10px;
+   
+}
+.song-name-small{
+    margin-left: 10px;
+}
+.time{
+    margin-left: 180px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#single1{
+    background-image: url(/images/kesariya.jpg);
+    background-size: 40px 40px;
+}
+#single2{
+    background-image: url(/images/rangsari.jpg);
+    background-size: 40px 40px;
+}
+#single3{
+    background-image: url(/images/rasiya.jpg);
+    background-size: 40px 40px;
+}
+#single4{
+    background-image: url(/images/deva-deva.jpg);
+    background-size: 40px 40px;
+}
+
+
+
+.topAlbums-items{
+    display: flex;
+    color: white;
+    width: 384px;
+    height: 70px;
+    border-bottom: 1px solid #222227;
+    /* border: 1px solid white; */
+}
+.Album-icon{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid yellow; */
+    margin-top: 12px;
+    margin-left: 15px;
+    border-radius: 10px;
+   
+}
+
+#Album1{
+    background-image: url(/images/deva-deva.jpg);
+    background-size: 40px 40px;
+}
+#Album2{
+    background-image: url(/images/tere-pyaar-mein.jpg);
+    background-size: 40px 40px;
+}
+#Album3{
+    background-image: url(/images/bhediya.jpg);
+    background-size: 40px 40px;
+}
+#Album4{
+    background-image: url(/images/jhoome-jo-pathaan.jpg);
+    background-size: 40px 40px;
+}
+
+.topPodcasts-items{
+    display: flex;
+    color: white;
+    width: 384px;
+    height: 70px;
+    border-bottom: 1px solid #222227;
+    /* border: 1px solid white; */
+}
+.Podcasts-icon{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid yellow; */
+    margin-top: 12px;
+    margin-left: 15px;
+    border-radius: 10px;
+   
+}
+
+#Podcast1{
+    background-image: url(/images/trs.png);
+    background-size: 40px 40px;
+}
+#Podcast2{
+    background-image: url(/images/sandeep.jpg);
+    background-size: 40px 40px;
+}
+#Podcast3{
+    background-image: url(/images/indian-noir.jpg);
+    background-size: 40px 40px;
+}
+#Podcast4{
+    background-image: url(/images/the-horror-show.jpg);
+    background-size: 40px 40px;
+}
+.song-name-small p:hover{
+    color: rgb(6, 168, 6);
+    
+}
+

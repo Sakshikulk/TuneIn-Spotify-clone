@@ -1,0 +1,38 @@
+#slider{
+    display: inline-flex;
+    /* border: 1px solid red; */
+    margin-top: 92px;
+    margin-left: 280px;
+    height: 510PX;
+    width: 1246px;
+    background-color: #16151a;
+    /* border: 1px solid #222227; */
+}
+#slider-window{
+    height: 425px;
+    width: 1140px;
+    border: 2px solid black;
+    margin-top: 35px;
+    margin-left: 55px;
+    background-image: url(/images/slide1.jpg);
+    background-size:  1180px 555px;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    border-radius: 25px;
+}
+#first{
+    color: white;
+    font-size: 50px;
+    z-index: 10;
+    margin-top: 230px;
+    margin-left: 40px;
+}
+#second{
+    color: white;
+    font-size: 17px;
+    z-index: 10;
+    margin-top: 10px;
+    margin-left: 40px;
+
+
+}
